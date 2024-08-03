@@ -1,0 +1,122 @@
+*{
+    margin-top: 5px;
+}
+.header{
+    background-color: aquamarine;
+    display: flex;
+    border-radius: 10px;
+    height: 50px;
+  
+}
+.phone{
+    border-radius: 10px;
+    background-image: url(phone1.png);
+    margin: 5px;
+    width: 40px;
+    height: 40px;
+}
+.phone:hover{
+    background-image: url(phone2.gif);
+}
+.insta{
+    border-radius: 10px;
+    background-image: url(insta1.png);
+    margin-left: 1250px;
+    margin-top: 5px;
+    width: 40px;
+    height: 40px;
+}
+.insta:hover{
+    background-image: url(insta1.gif);
+}
+.whatsapp{
+    border-radius: 10px;
+    background-image: url(wa1.png);
+    margin: 5px;
+    width: 40px;
+    height: 40px;
+}
+.whatsapp:hover{
+    background-image: url(wa1.gif);
+}
+.twitter{
+     border-radius: 10px;
+     background-image: url(twitter1.png);
+    margin: 5px;
+    width: 40px;
+    height: 40px;
+}
+.twitter:hover{
+    background-image: url(twitter1.gif);
+}
+.navbar{
+    background-color: hsl(39, 97%, 58%);
+    color: black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    list-style: none;
+    display: flex;
+    
+}
+.navbar li a{
+    font-size: 15pt;
+    padding-left: 95px;
+    padding-right: 95px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.navbar li a:hover{
+    background-color: aqua;
+    color: brown;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+.input{
+    margin-left: 120px;
+    border-radius: 5px;
+}
+.searchbutton{
+    margin-left: 5px;
+    border-radius: 5px;
+}
+.shoes{
+    display: flex;
+
+}
+.shoes li{
+    list-style-type: none;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid;
+    background-color: azure;
+    border-radius: 20px;
+    border-color: darkgreen;
+    width: 350px;
+    height: 200px;
+    text-align:center;
+}
+.shoes li h2{
+    color: blueviolet;
+    font-size: 20pt;
+    text-align: center;
+    margin: 5px;
+}
+.img1{
+    width: 230px;
+    height: 70px;
+}
+.img2{
+    width: 160px;
+    height: 70px;
+}
+.img3{
+    width: 80px;
+    height: 80px;
+}
+.img4{
+    width: 80px;
+    height: 80px;
+}
